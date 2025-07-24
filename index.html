@@ -2,9 +2,23 @@
 <html>
 <head>
     <title>B.O.L.D.</title>
+    <link rel="stylesheet" href="httsp://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
 </head>
 <body>
     <h1>Welcome to B.O.L.D.</h1>
     <p>B.O.L.D. (Bringing Our Lens to the Discusion) is a youth-driven platform sharing news, stories, and talents from a young perspective. We empower youth to speak up, express bold ideas, and bring their voices to the table — for each other, for adults, and for the world.</p>
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">Issue 1</div>
+            <div class="swiper-slide">Issue 2</div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        new Swiper('.swiper',{
+            loop: true,
+            autoplay: { delay:3000},
+        });
+    </script>
 </body>
 </html>
